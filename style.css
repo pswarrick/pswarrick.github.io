@@ -1,0 +1,37 @@
+body {
+    font-family: "Inter", sans-serif;
+    color: #414042;
+    font-size: 16px;
+    background-color: #FFFFFA;
+    margin: 24px;
+}
+
+a {
+    color: #414042;
+    text-decoration: none;
+}
+
+header {
+    margin-bottom: 64px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.websites-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.websites-grid div {
+    /* background-color: #000; */
+    background-color: #D9D9D9;
+    border: 10px solid #FFFFFA;
+    padding: 24px;
+}
+
+.websites-grid div img {
+    width: 100%;
+}
