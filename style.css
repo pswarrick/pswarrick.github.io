@@ -22,16 +22,87 @@ nav {
 
 .websites-grid {
     display: grid;
-    grid-template-columns: auto auto;
+    /* grid-template-columns: auto auto auto auto; */
+     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .websites-grid div {
-    /* background-color: #000; */
     background-color: #D9D9D9;
     border: 10px solid #FFFFFA;
-    padding: 24px;
+    padding: 16px;
 }
 
-.websites-grid div img {
+.landing-project img {
     width: 100%;
+}
+
+.list-heading {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.project-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+}
+
+.project-list div {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+
+footer {
+    margin-top: 16px;
+    text-align: center;
+}
+
+.project-container {
+    background-color: #D9D9D9;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.project-container img {
+    max-width: 980px;
+}
+
+.under-contruction {
+    text-align: center;
+}
+
+.about {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about img {
+    width: 100%;
+}
+
+.about h1 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.about p {
+    max-width: 636px;
 }
